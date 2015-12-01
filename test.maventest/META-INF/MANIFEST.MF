@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Maventest
+Bundle-SymbolicName: test.maventest
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: maventest;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.jmockit;bundle-version="1.20.0",
+ org.junit;bundle-version="4.12.0"
