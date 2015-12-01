@@ -63,7 +63,7 @@
 					</dependencies>
 
 					<!-- http://stackoverflow.com/a/4369038 -->
-					<argLine>-javaagent:"D:\maven-test\org.jmockit_1.20.0.jar"</argLine>
+					<argLine>-javaagent:"D:\maven-test\org.jmockit_1.20.0.jar" -noverify</argLine>
 					<useSystemClassLoader>true</useSystemClassLoader>
 				</configuration>
 			</plugin>
